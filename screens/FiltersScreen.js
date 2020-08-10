@@ -36,6 +36,7 @@ const FiltersScreen = (props) => {
         console.log();
         props.navigation.setParams({ save: saveFilters });
     }, [saveFilters]);
+
     return (
         <View style={styles.screen}>
             <Text style={styles.title}>Available filters</Text>
