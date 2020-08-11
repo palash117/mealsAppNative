@@ -10,6 +10,7 @@ import DefaultText from "../components/DefaultText";
 const FavouritesScreen = ({ navigation }) => {
     const favouritedMeals = useSelector((state) => state.meals.favouritedMeals);
     console.log("favourites in favourites screen ", favouritedMeals);
+
     if (favouritedMeals.length === 0) {
         return (
             <View
